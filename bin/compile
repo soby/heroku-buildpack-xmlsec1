@@ -18,3 +18,4 @@ rm tmp-libxmlsec1.tar.gz
 # export xmlsec loc and flags
 export LIBXMLSEC1=$(pwd)
 export CFLAGS="-I$(pwd)/include/xmlsec1"
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:`pwd`/lib
